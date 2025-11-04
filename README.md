@@ -1,30 +1,101 @@
-# 🐇 Rabby - İlk Python Oyun Projem
+🐇 Rabby – My First Python Game Project
 
-Rabby, Python kullanarak geliştirdiğim **ilk oyun projem**. Oyunda, karakterimiz olan küçük bir tavşan, ekranın rastgele konumlarında beliren platformlara zıplayarak yukarıya doğru tırmanmaya çalışıyor. Bu sırada rastgele çıkan “kuş” engellerinden kaçması gerekiyor. Amacım, hem temel oyun mekaniğini hem de oyuncu deneyimini öğrenmekti.  
+Rabby is my first game project developed using Python.
+In this platform-style game, a small rabbit character jumps onto randomly generated platforms to climb higher, while avoiding flying “bird” obstacles that appear unpredictably. The game challenges the player’s reflexes, timing, and focus in a progressively difficult environment.
 
----
+🎯 About the Project
 
-## 🎯 Proje Hakkında
-- Tavşan karakteri rastgele beliren platformlara zıplayarak yükselir.  
-- Oyuncu, yukarı doğru tırmanırken karşısına çıkan kuş engellerinden kaçmalıdır.  
-- Oyun, sürekli artan zorlukla birlikte refleks ve zamanlamaya dayalıdır.  
+The rabbit jumps on randomly positioned platforms to move upward.
 
----
+Players must dodge flying bird obstacles while climbing.
 
-## 📝 Öğrendiklerim
-Bu proje bana oyun geliştirme sürecinde çok şey kattı:  
-- **Oyun metriklerini** (zorluk seviyesi, hız artışı, engel sıklığı) daha doğru kurmanın önemini gördüm.  
-- **Asset bulma ve oluşturma** konusunda tecrübe kazandım. Uygun görsel ve seslerin oyunun hissini ne kadar değiştirdiğini öğrendim.  
-- **Oyun fiziği** (yerçekimi, çarpışma kontrolleri, hareket dinamikleri) üzerine çalışarak gerçekçi bir deneyim yaratmaya çalıştım.  
+The game features increasing difficulty over time for added challenge.
 
----
+The core mechanics (game loop, collision detection, scoring) are implemented from scratch in Python.
 
-## 📌 Çıkarılan Dersler
-- Oyunlarda kullanıcı deneyimini belirleyen şey sadece mekanikler değil, aynı zamanda görsellik ve akıcılıktır.  
-- Oyun fiziği doğru tasarlanmadığında oynanış büyük ölçüde olumsuz etkilenir.  
-- İyi bir planlama yapmanın ve kodu düzenli tutmanın projeyi daha sürdürülebilir hale getirdiğini fark ettim.  
+🧩 Libraries Used
 
----
+To develop the core game systems, the following Python libraries were utilized:
 
-## 👨‍💻 Sonuç
-Rabby, teknik açıdan kusursuz olmasa da, **ilk oyun geliştirme tecrübem** olarak bana çok değerli bir öğrenme süreci sundu. Bir sonraki projelerimde daha iyi metrikler, daha profesyonel assetler ve gelişmiş fizik kurallarıyla daha keyifli oyunlar geliştirmeyi hedefliyorum.
+pygame – For rendering graphics, handling movement, collision detection, and sound effects.
+
+random – For generating random positions of platforms and obstacles.
+
+time – For timing, score tracking, and gradual speed adjustments.
+
+🧠 What I Learned
+
+Through this project, I learned:
+
+The importance of designing balanced game mechanics and difficulty metrics.
+
+How visuals and sound significantly influence the player’s overall experience.
+
+The fundamentals of game physics (gravity, collisions, movement dynamics).
+
+That keeping the codebase clean and modular makes future development easier.
+
+📌 Key Takeaways
+
+Great player experience depends not only on gameplay but also on visual design and fluidity.
+
+Poorly tuned game physics can severely harm playability.
+
+Proper planning from the beginning ensures project scalability and maintainability.
+
+👨‍💻 Conclusion
+
+Although Rabby may not be technically perfect, it represents a meaningful milestone in my journey as a developer.
+In future projects, I plan to implement more advanced physics, improved performance, and professional-grade assets for a more immersive gameplay experience.  
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+🐇 Rabby – İlk Python Oyun Projem
+
+Rabby, Python kullanarak geliştirdiğim ilk oyun projemdir.
+Oyunda küçük bir tavşan karakter, ekranda rastgele beliren platformlara zıplayarak yukarıya doğru tırmanmaya çalışır. Ancak bu sırada karşısına çıkan “kuş” engellerinden kaçmak zorundadır. Oyuncunun reflekslerini, zamanlamasını ve dikkatini ölçen eğlenceli bir platform oyunudur.
+
+🎯 Proje Hakkında
+
+Tavşan karakter, rastgele konumlarda oluşan platformlara zıplayarak yükselir.
+
+Oyuncu, yukarıya doğru tırmanırken hareketli kuş engellerinden kaçmalıdır.
+
+Oyun, zaman ilerledikçe zorluk seviyesi artan bir mekanik üzerine kuruludur.
+
+Temel oyun döngüsü (game loop), çarpışma kontrolleri ve skor sistemi Python ile sıfırdan tasarlanmıştır.
+
+🧩 Kullanılan Kütüphaneler
+
+Projede oyun geliştirme sürecini desteklemek için aşağıdaki Python kütüphaneleri kullanılmıştır:
+
+pygame – Oyun ekranı, karakter hareketleri, çarpışma tespiti ve ses efektleri için.
+
+random – Platform ve engellerin rastgele konumlarda oluşturulması için.
+
+time – Zamanlama, skor hesaplaması ve oyun hızının kademeli artışı için.
+
+🧠 Öğrendiklerim
+
+Bu proje sayesinde:
+
+Oyun mekaniğini oluşturmanın ve zorluk metriklerini ayarlamanın önemini öğrendim.
+
+Görsel ve ses öğelerinin oyuncu deneyimini nasıl etkilediğini deneyimledim.
+
+Oyun fiziği (yerçekimi, çarpışma kontrolleri, hareket dinamikleri) üzerine çalışarak daha gerçekçi bir his elde ettim.
+
+Kod yapısını düzenli tutmanın geliştirme sürecini kolaylaştırdığını fark ettim.
+
+📌 Çıkarılan Dersler
+
+Oyunlarda kullanıcı deneyimini belirleyen unsurlar sadece mekanikler değil, aynı zamanda görsellik, tempo ve akıcılıktır.
+
+Doğru tasarlanmamış oyun fiziği, oynanışı ciddi şekilde olumsuz etkileyebilir.
+
+Başlangıç aşamasında iyi bir planlama yapmak, projenin sürdürülebilirliğini artırır.
+
+👨‍💻 Sonuç
+
+Rabby, teknik olarak mükemmel olmasa da, benim için çok değerli bir ilk oyun geliştirme deneyimi oldu.
+Bir sonraki projelerimde daha gelişmiş fizik motorları, profesyonel görsel ögeler ve optimize edilmiş performans hedefliyorum.
